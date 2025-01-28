@@ -13,7 +13,7 @@ const Logo: FC<LogoProps> = ({ fontSize = "2xl", iconSize = 20 }) => {
     <Link
       href={"/"}
       className={cn(
-        "text-2xl font-extrabold flex items-center gap-1.5",
+        "text-2xl font-extrabold flex self-center gap-1.5",
         fontSize
       )}
     >
